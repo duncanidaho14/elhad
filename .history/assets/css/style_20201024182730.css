@@ -1,0 +1,49 @@
+.pre-loaded {
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.nav {
+    opacity: 20%;
+}
+
+.progress
+.indeterminate {
+    background-color: rgba(182, 69, 126, 0.603);
+}
+
+.progress.bar
+.determinate.symfony {
+    background-color: black;
+
+}
+
+div.determinate.react {
+    background-color: #3498db;
+}
+
+div.determinate.mysql {
+    background-color: #1d4240;
+}
+
+.reactAnimation {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: red;
+    z-index: 10;
+}
